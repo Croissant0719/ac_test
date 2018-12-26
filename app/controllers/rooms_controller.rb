@@ -1,5 +1,9 @@
 class RoomsController < ApplicationController
   def show
-    @message = Message.all
+    @messages = Message.all
   end
+
+  # def show
+  #   @message = Message.find(params[:id])
+  # end
 end
